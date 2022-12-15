@@ -8,6 +8,8 @@
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="./css/index.css" />
     <script defer src="./javascript/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </head>
   <body>
     <div class="top"></div>
@@ -37,13 +39,22 @@
               <li><a href="#">零售店</a></li>
               <li><a href="#">商用</a></li>
             </ul>
-          </div>
+          </div> 
         </nav>
-        <div class="header_right">
-          <span
+
+        <div class="header_right ">
+
+          <div class="header_zc_show cover">
+            <div class="triangle"></div>
+            <div class="header_zc_show_txt">
+            <p><a href="#">登录</a></p>
+            <p><a href="#">注册</a></p>
+            </div>
+          </div>
+          <span class="header_zc"
             ><img class="icon" src="css/icon/search-outline.svg" alt=""
           /></span>
-          <span
+          <span class="header_dl "
             ><img class="icon" src="css/icon/person-outline.svg" alt=""
           /></span>
           <div class="header_shousuo">
@@ -52,6 +63,20 @@
         </div>
       </div>
     </header>
+
+    <div class="header_ss cover">
+      <div class="header_ss_example">
+        <div class="example_delete">
+          <ion-icon class="example_delete_icon" name="close-outline"></ion-icon>
+        </div>
+        <form class="example" action="action_page.php">
+          
+          <input type="text" placeholder="搜索华为......" name="search">
+          <button type="submit"><ion-icon name="search-outline"></ion-icon></button>
+        </form>
+    </div>
+  </div>
+
     <!-- 导航栏结束 -->
 
     <!-- 子导航栏开始 -->
@@ -151,10 +176,39 @@
         </ul>
       </div>
     </container>
+      <!-- 4 
+      <div class="container_four">
+        <img src="images/application-boutique-pc1.jpg" alt="">
+        <h3>全场景 应用生活新体验</h3>
+        <div>
+          <h4>畅享多终端应用体验</h4>
+          <p>在手机、平板、PC、智慧屏、穿戴、车机及 VR 等</p>
+          <p>
+            多终端设备中均能通过华为应用市场下载安全优质的应用</p>
+          <h4>融合场景，智慧生活一触可得</h4>
+          <p>平板的平行视界、手写笔能力，通过应用适配让体验更丰富，让灵感有迹可循</p>
+            <p>
+            智慧屏应用搭配 AI 慧眼，带来全新体感应用和游戏的互动乐趣，放大生活中的美好瞬间</p>
+            <p>手表应用专注于抬腕即可获得的便捷，智慧生活一手掌握</p>
+            <p>VR 应用将沉浸式的感官体验带向新高度</p>
+            <p>车载应用便利了用户的出行生活，随心随行</p>
+        </div>
+        -->
+      </div>
+      <div class="container_fou ">
+      </div>
     <!-- container结束 -->
 
     <!-- 页脚开始 -->
     <foot>
+      <div class="foot_zy">
+        <ul>
+          <li><a href="#">主页</a></li>
+          <li> <a href="#">华为终端云服务</a></li>
+          <li><a href="#">华为应用市场</a></li>
+        </ul>
+      </div>
+
       <div class="foot_top">
         <div class="foot_body">
           <div class="foot_body_gm">
@@ -227,9 +281,53 @@
               <li><a href="#">路由器</a></li>
             </ul>
           </div>
+          <div class="foot_body_gm">
+        </div>
+      </div>
+
+      <div class="foot_zx">
+        <div class="foot_zx_box">
+            <h3>在线支持</h3>
+            <p>消费者服务热线</p>
+            <p>950800</p>
+            <p>7*24小时 | 普通话</p>
+            <p>Mate X系列、保时捷设计专属热线</p>
+            <p>950801</p>
+            <p><a href="#">在线客服 | 7*24小时</a></p>
+        </div>
+        <div class="foot_zx_box">
+            <h3>线下支持</h3>
+            <p><a href="#">服务店查询</a></p>
+            <p><a href="#">零售店查询</a></p>
+        </div>
+        <div class="foot_zx_box">
+            <h3>关注我们</h3>
+            <div>
+            <img src="css/icon/logo-wechat.svg" alt="">
+            <img src="css/icon/logo-twitter.svg" alt="">
+            </div>
+          </div>
+      </div>
+      <!-- banquan -->
+      <div class="foot_bq">
+        <div class="foot_bq_p"><p>版权所有 © 华为终端有限公司 1998-2022。保留一切权利。粤A2-20044005号</p></div>
+        <div class="foot_bq_ul">
+          <ul>
+            <li><a href="#">网站地图</a></li>
+            <li><a href="#">使用条款</a></li>
+            <li><a href="#">隐私声明</a></li>
+            <li><a href="#">关于cookies</a></li>
+            <li><a href="#">法律信息</a></li>
+          </ul>
+        </div>
+        <div>
+          <p>China-简体中文 </p>
         </div>
       </div>
     </foot>
     <!-- 页脚结束 -->
+    <ul><li>
+
+    </li></ul>
   </body>
 </html>
