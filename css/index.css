@@ -18,6 +18,16 @@ a {
 
 .cover {
   display: none;
+  z-index: -1;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* 导航栏图标 */
@@ -241,6 +251,52 @@ a {
 }
 
 /* ///////////////////登录 ////////////*/
+
+.market_xz {
+  /* transition: all 1s ease-in-out;
+  animation: fade-in 1s ease-in-out; */
+  /* display: none; */
+  width: 24.8rem;
+  height: 36rem;
+  padding: 3rem 6rem;
+  /* transition: 0.5s ease-out; */
+  /* background-image: url("images/erweimaLJ.svg"); */
+  /* border: 1px solid rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+  /* background-color: red; */
+  background-color: #fff;
+  border-radius: 1rem;
+  top: 22rem;
+  right: 0;
+  position: absolute;
+  display: grid;
+  /* grid: 1fr; */
+  justify-content: center;
+  align-items: center;
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+
+.market_xz img {
+  width: 16rem;
+  /* text-align: center; */
+  /* line-height: 16rem; */
+}
+
+.market_xz p {
+  margin: 0 -2rem;
+}
+
+.market_xz_bt {
+  padding-bottom: 2rem;
+}
+
+.cover_bt {
+}
+
+/* ///////////////////二维码 ////////////*/
 
 .header_shousuo {
   height: 3.2rem;
