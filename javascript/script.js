@@ -33,6 +33,23 @@ xz.addEventListener("mouseover", () => {
     setTimeout(() => {
       market_xz.classList.add("cover");
       console.log(2);
-    }, 1000);
+    }, 500);
   });
 });
+
+/////////subvav///////////
+const subnav = document.querySelector(".subnav_market");
+
+// let topPos = subnav.offsetTop;
+// console.log(topPos);
+// subnav.addEventListener("scroll", () => {
+//   const top = subnav.scrollTop();
+//   if (top > 0) {
+//     subnav.style.position = "fixed";
+//   }
+//   console.log(1);
+//   subnav.style.marginTop = "-10.5rem";
+// }
+// });
+
+// window.pageYOffset();
